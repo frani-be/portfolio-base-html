@@ -20,11 +20,4 @@
     --border-radius-small: 5px;
     --border-radius-medium: 10px;
     --border-radius-large: 20px;
-
-    --breakpoint-xs: 480px;
-    --breakpoint-sm: 600px;
-    --breakpoint-md: 782px;
-    --breakpoint-lg: 960px;
-    --breakpoint-xl: 1280px;
-    --breakpoint-xxl: 1440px;
 }
