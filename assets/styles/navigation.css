@@ -1,0 +1,12 @@
+#navegacion-principal {
+    width: 100%;
+}
+
+.nav-layout {
+    justify-content: space-between;
+}
+
+.nav-items-container {
+    gap: 1rem;
+    align-items: center;
+}
