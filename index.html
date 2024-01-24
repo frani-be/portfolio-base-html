@@ -252,8 +252,33 @@
     </main>
     <footer>
         <section id="contacto">
-            <div id="formulario"></div>
-            <div id="redes-sociales"></div>
+            <div id="formulario">
+                <form>
+                    <fieldset>
+                        <legend>Formulario de Contacto</legend>
+                
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                
+                        <button type="submit">Enviar</button>
+                    </fieldset>
+                </form>                
+            </div>
+            <div id="canales">
+                <p><a href="mailto:hola@frani.be?subject=Contacto%20desde%20frani.be&body=Hola%20Francisca,%20te%20escribo%20desde%20frani.be" target="_blank">Envíame un mail</a></p>
+                <p><a href="https://wa.me/56973758006?text=Hola%20Francisca,%20te%20escribo%20desde%20frani.be" target="_blank">Envíame un Whatsapp</a></p>
+            </div>
+            <div id="redes-sociales">
+                <p><a href="https://www.instagram.com/frani.be/">Instagram</a></p>
+                <p><a href="https://www.linkedin.com/in/frani-be/">LinkedIn</a></p>
+                <p><a href="https://github.com/frani-be">GitHub</a></p>
+            </div>
         </section>
         <nav>
             <ul>
@@ -266,9 +291,12 @@
                 <li><a href="experiencia.html">Experiencia</a></li>
                 <li><a href="#">Términos y condiciones</a></li>
                 <li><a href="#">Política de privacidad</a></li>
+                <li><a href="#">Preguntas frecuentes</a></li>
             </ul>
         </nav>
-        <section id="firma"></section>
+        <div id="firma">
+            <p>Hecho por <a href="https://frani.be/">frani.be</a></p>
+        </div>
     </footer>
 </body>
 </html>
