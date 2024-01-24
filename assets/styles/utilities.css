@@ -587,13 +587,13 @@
 
 /* Border Radius Utilities */
 .u-border-radius-small { 
-    border-radius: 5px; 
+    border-radius: var(--border-radius-small); 
 }
 
 .u-border-radius-medium { 
-    border-radius: 10px; 
+    border-radius: var(--border-radius-medium); 
 }
 
 .u-border-radius-large { 
-    border-radius: 20px; 
+    border-radius: var(--border-radius-large); 
 }
