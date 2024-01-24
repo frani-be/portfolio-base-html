@@ -510,6 +510,14 @@
     display: inline-block;
 }
 
+.u-display-flex {
+    display: flex;
+}
+
+.u-display-grid {
+    display: grid;
+}
+
 .u-visible {
     visibility: visible;
 }
